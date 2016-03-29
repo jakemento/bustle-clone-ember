@@ -20,6 +20,9 @@ export default Ember.Component.extend({
     },
     showArticle: function() {
       this.set('articleIsShowing', true);
+    },
+    update(article, params) {
+      this.sendAction('update', article, params);
     }
   }
 });

@@ -1,16 +1,20 @@
-<li>
-{{# if articleIsShowing}}
 
- {{article.title}} by {{article.author}}  <br> {{article.type}}
+<div class="col-lg-6">
+  <li> <h3>{{#link-to 'article' article.id}} {{article.title}} {{/link-to}}</h3>
+  {{# if articleIsShowing}}
+    <br>
+   by {{article.author}}  <br> {{article.type}}
 
- {{#if isImageShowing }}
-   <p><img src={{article.image}} alt={{article.type}}> </p>
-   <button {{action 'imageHide'}}> Hide Image </button>
- {{else}}
-   <button {{action 'imageShow'}}> Show Image </button>
- {{/if}}
- <button {{action 'hideArticle' article}}>Hide {{article.title}}</button>
- {{else}}
- <button {{action 'showArticle' article}}>Show {{article.title}}</button>
- {{/if}}
-</li>
+   {{#if isImageShowing }}
+     <p><img class="image" src={{article.image}} alt={{article.type}}> </p>
+     <button {{action 'imageHide'}}> Hide Image </button>
+   {{else}}
+     <button {{action 'imageShow'}}> Show Image </button>
+   {{/if}}
+   <button {{action 'hideArticle' article}}>Hide Article</button>
+   {{else}}
+   <button {{action 'showArticle' article}}>Show Article</button>
+   {{/if}}
+  </li>
+  <hr>
+</div>

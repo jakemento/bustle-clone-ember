@@ -1,0 +1,15 @@
+<h1> <center> {{article.title}} </center> </h1>
+
+<h2> <center> {{article.author}} </center> </h2>
+
+<div class="col-md-6">
+  <img src= {{article.image}}>
+</div>
+<div class="col-md-6">
+  <p>{{article.text}} </p>
+</div>
+
+<div class="col-md-12">
+  <button {{action 'delete' article}}>Delete Article </button>
+
+</div>
