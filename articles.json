@@ -1,0 +1,20 @@
+{ "articles": [{
+  "title": "Cats are Better Than Dogs",
+  "image": "http://www.eurasianet.org/sites/default/files/imagecache/large_photo/Turkish_Van_Cat.jpg",
+  "text": "Cats are better than dogs, clearly. It is simple to make this statement, however, it is true. Dogs have a rich history of protecting and serving people, however, cats also have a long history of interacting with humans.",
+  "type": "Opinion",
+  "author": "Jake S."
+}, {
+  "title": "Dogs are Better than Cats",
+  "image": "http://thedogwallpaper.com/wp-content/uploads/2013/12/rottweiler-wiki-153.jpg",
+  "text": "Dogs are better than cats. Duh. How could you possibly make an argument to the contrary? That's right, you can't.",
+  "type": "Opinion",
+  "author": "Andrew T"
+}, {
+  "title": "Trump Elected President(of clown college)",
+  "image": "https://humorinamerica.files.wordpress.com/2015/09/a2.jpg",
+  "text": "In a startling turn of events for the 2016 election cycle, Trump, apparently, unbeknownst to him, has been running not for president of our nation, but as president of our countrie's most prestigous clown school...",
+  "type": "News",
+  "author": "Jake S."
+  }]
+}
